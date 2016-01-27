@@ -1,0 +1,366 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		328721B21C58867900E71998 /* LNTouchPan.m in Sources */ = {isa = PBXBuildFile; fileRef = 328721B11C58867900E71998 /* LNTouchPan.m */; };
+		32E8BAD01C564EFD00B72989 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 32E8BACF1C564EFD00B72989 /* main.m */; };
+		32E8BAD31C564EFD00B72989 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 32E8BAD21C564EFD00B72989 /* AppDelegate.m */; };
+		32E8BAD61C564EFD00B72989 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32E8BAD51C564EFD00B72989 /* ViewController.m */; };
+		32E8BAD91C564EFD00B72989 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32E8BAD71C564EFD00B72989 /* Main.storyboard */; };
+		32E8BADB1C564EFD00B72989 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32E8BADA1C564EFD00B72989 /* Assets.xcassets */; };
+		32E8BADE1C564EFD00B72989 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32E8BADC1C564EFD00B72989 /* LaunchScreen.storyboard */; };
+		32E8BAEC1C564F8F00B72989 /* LNTouchComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 32E8BAEB1C564F8F00B72989 /* LNTouchComponent.m */; };
+		32E8BAF31C5650C600B72989 /* LNTouchTap.m in Sources */ = {isa = PBXBuildFile; fileRef = 32E8BAF21C5650C600B72989 /* LNTouchTap.m */; };
+		32E8BAF61C56516100B72989 /* LNTouchLongPress.m in Sources */ = {isa = PBXBuildFile; fileRef = 32E8BAF51C56516100B72989 /* LNTouchLongPress.m */; };
+		32E8BAFB1C56524500B72989 /* UIView+LNTouchs.m in Sources */ = {isa = PBXBuildFile; fileRef = 32E8BAFA1C56524500B72989 /* UIView+LNTouchs.m */; };
+		32E8BAFE1C5656FC00B72989 /* LNTouchSwipe.m in Sources */ = {isa = PBXBuildFile; fileRef = 32E8BAFD1C5656FC00B72989 /* LNTouchSwipe.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		328721B01C58867900E71998 /* LNTouchPan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LNTouchPan.h; sourceTree = "<group>"; };
+		328721B11C58867900E71998 /* LNTouchPan.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LNTouchPan.m; sourceTree = "<group>"; };
+		32E8BACB1C564EFD00B72989 /* LNViewTouchsExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LNViewTouchsExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		32E8BACF1C564EFD00B72989 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32E8BAD11C564EFD00B72989 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		32E8BAD21C564EFD00B72989 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		32E8BAD41C564EFD00B72989 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		32E8BAD51C564EFD00B72989 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		32E8BAD81C564EFD00B72989 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		32E8BADA1C564EFD00B72989 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		32E8BADD1C564EFD00B72989 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		32E8BADF1C564EFD00B72989 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32E8BAEA1C564F8F00B72989 /* LNTouchComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LNTouchComponent.h; sourceTree = "<group>"; };
+		32E8BAEB1C564F8F00B72989 /* LNTouchComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LNTouchComponent.m; sourceTree = "<group>"; };
+		32E8BAF11C5650C600B72989 /* LNTouchTap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LNTouchTap.h; sourceTree = "<group>"; };
+		32E8BAF21C5650C600B72989 /* LNTouchTap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LNTouchTap.m; sourceTree = "<group>"; };
+		32E8BAF41C56516100B72989 /* LNTouchLongPress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LNTouchLongPress.h; sourceTree = "<group>"; };
+		32E8BAF51C56516100B72989 /* LNTouchLongPress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LNTouchLongPress.m; sourceTree = "<group>"; };
+		32E8BAF91C56524500B72989 /* UIView+LNTouchs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+LNTouchs.h"; sourceTree = "<group>"; };
+		32E8BAFA1C56524500B72989 /* UIView+LNTouchs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+LNTouchs.m"; sourceTree = "<group>"; };
+		32E8BAFC1C5656FC00B72989 /* LNTouchSwipe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LNTouchSwipe.h; sourceTree = "<group>"; };
+		32E8BAFD1C5656FC00B72989 /* LNTouchSwipe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LNTouchSwipe.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		32E8BAC81C564EFD00B72989 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		32E8BAC21C564EFD00B72989 = {
+			isa = PBXGroup;
+			children = (
+				32E8BAE91C564F6D00B72989 /* LNViewTouchs */,
+				32E8BACD1C564EFD00B72989 /* LNViewTouchsExample */,
+				32E8BACC1C564EFD00B72989 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		32E8BACC1C564EFD00B72989 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				32E8BACB1C564EFD00B72989 /* LNViewTouchsExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		32E8BACD1C564EFD00B72989 /* LNViewTouchsExample */ = {
+			isa = PBXGroup;
+			children = (
+				32E8BAD11C564EFD00B72989 /* AppDelegate.h */,
+				32E8BAD21C564EFD00B72989 /* AppDelegate.m */,
+				32E8BAD41C564EFD00B72989 /* ViewController.h */,
+				32E8BAD51C564EFD00B72989 /* ViewController.m */,
+				32E8BAD71C564EFD00B72989 /* Main.storyboard */,
+				32E8BADA1C564EFD00B72989 /* Assets.xcassets */,
+				32E8BADC1C564EFD00B72989 /* LaunchScreen.storyboard */,
+				32E8BADF1C564EFD00B72989 /* Info.plist */,
+				32E8BACE1C564EFD00B72989 /* Supporting Files */,
+			);
+			path = LNViewTouchsExample;
+			sourceTree = "<group>";
+		};
+		32E8BACE1C564EFD00B72989 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				32E8BACF1C564EFD00B72989 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		32E8BAE91C564F6D00B72989 /* LNViewTouchs */ = {
+			isa = PBXGroup;
+			children = (
+				32E8BAF81C56521000B72989 /* LNViews */,
+				32E8BAED1C56504200B72989 /* LNTouchs */,
+			);
+			path = LNViewTouchs;
+			sourceTree = "<group>";
+		};
+		32E8BAED1C56504200B72989 /* LNTouchs */ = {
+			isa = PBXGroup;
+			children = (
+				32E8BAEA1C564F8F00B72989 /* LNTouchComponent.h */,
+				32E8BAEB1C564F8F00B72989 /* LNTouchComponent.m */,
+				32E8BAF41C56516100B72989 /* LNTouchLongPress.h */,
+				32E8BAF51C56516100B72989 /* LNTouchLongPress.m */,
+				32E8BAF11C5650C600B72989 /* LNTouchTap.h */,
+				32E8BAF21C5650C600B72989 /* LNTouchTap.m */,
+				32E8BAFC1C5656FC00B72989 /* LNTouchSwipe.h */,
+				32E8BAFD1C5656FC00B72989 /* LNTouchSwipe.m */,
+				328721B01C58867900E71998 /* LNTouchPan.h */,
+				328721B11C58867900E71998 /* LNTouchPan.m */,
+			);
+			name = LNTouchs;
+			sourceTree = "<group>";
+		};
+		32E8BAF81C56521000B72989 /* LNViews */ = {
+			isa = PBXGroup;
+			children = (
+				32E8BAF91C56524500B72989 /* UIView+LNTouchs.h */,
+				32E8BAFA1C56524500B72989 /* UIView+LNTouchs.m */,
+			);
+			name = LNViews;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		32E8BACA1C564EFD00B72989 /* LNViewTouchsExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32E8BAE21C564EFD00B72989 /* Build configuration list for PBXNativeTarget "LNViewTouchsExample" */;
+			buildPhases = (
+				32E8BAC71C564EFD00B72989 /* Sources */,
+				32E8BAC81C564EFD00B72989 /* Frameworks */,
+				32E8BAC91C564EFD00B72989 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LNViewTouchsExample;
+			productName = LNViewTouchsExample;
+			productReference = 32E8BACB1C564EFD00B72989 /* LNViewTouchsExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		32E8BAC31C564EFD00B72989 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = onlylin;
+				TargetAttributes = {
+					32E8BACA1C564EFD00B72989 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 32E8BAC61C564EFD00B72989 /* Build configuration list for PBXProject "LNViewTouchsExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 32E8BAC21C564EFD00B72989;
+			productRefGroup = 32E8BACC1C564EFD00B72989 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				32E8BACA1C564EFD00B72989 /* LNViewTouchsExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		32E8BAC91C564EFD00B72989 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32E8BADE1C564EFD00B72989 /* LaunchScreen.storyboard in Resources */,
+				32E8BADB1C564EFD00B72989 /* Assets.xcassets in Resources */,
+				32E8BAD91C564EFD00B72989 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		32E8BAC71C564EFD00B72989 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32E8BAF31C5650C600B72989 /* LNTouchTap.m in Sources */,
+				32E8BAF61C56516100B72989 /* LNTouchLongPress.m in Sources */,
+				32E8BAD61C564EFD00B72989 /* ViewController.m in Sources */,
+				328721B21C58867900E71998 /* LNTouchPan.m in Sources */,
+				32E8BAEC1C564F8F00B72989 /* LNTouchComponent.m in Sources */,
+				32E8BAFB1C56524500B72989 /* UIView+LNTouchs.m in Sources */,
+				32E8BAD31C564EFD00B72989 /* AppDelegate.m in Sources */,
+				32E8BAFE1C5656FC00B72989 /* LNTouchSwipe.m in Sources */,
+				32E8BAD01C564EFD00B72989 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		32E8BAD71C564EFD00B72989 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32E8BAD81C564EFD00B72989 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		32E8BADC1C564EFD00B72989 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32E8BADD1C564EFD00B72989 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		32E8BAE01C564EFD00B72989 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		32E8BAE11C564EFD00B72989 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		32E8BAE31C564EFD00B72989 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LNViewTouchsExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.onlylin.LNViewTouchsExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		32E8BAE41C564EFD00B72989 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LNViewTouchsExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.onlylin.LNViewTouchsExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		32E8BAC61C564EFD00B72989 /* Build configuration list for PBXProject "LNViewTouchsExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32E8BAE01C564EFD00B72989 /* Debug */,
+				32E8BAE11C564EFD00B72989 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32E8BAE21C564EFD00B72989 /* Build configuration list for PBXNativeTarget "LNViewTouchsExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32E8BAE31C564EFD00B72989 /* Debug */,
+				32E8BAE41C564EFD00B72989 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 32E8BAC31C564EFD00B72989 /* Project object */;
+}
